@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تسجيل مستخدم</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>📝 تسجيل مستخدم جديد</h2>
+
+  <input id="nameAr" type="text" placeholder="الاسم الكامل (عربي)">
+  <input id="nameEn" type="text" placeholder="Full Name (English)">
+
+  <input id="password" type="password" placeholder="كلمة المرور">
+
+  <input id="birthPlace" type="text" placeholder="مكان الولادة">
+  <input id="birthDate" type="date">
+
+  <input id="address" type="text" placeholder="مكان الإقامة">
+  <input id="idNumber" type="text" placeholder="رقم الهوية المدنية">
+
+  <button onclick="validateForm()">تسجيل</button>
+
+  <p id="message"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
